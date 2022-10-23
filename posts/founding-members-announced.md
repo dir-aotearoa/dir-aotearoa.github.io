@@ -33,4 +33,5 @@ We wish to emphasise that the terms of reference for the committee specify a reg
 
 We have called the meeting of the wider forum, with a view to securing your approval of our recommendations, and we hope that you will be able to attend that meeting and participate in the work taken on by the forum.
 
-Ngā mihi<br>Richard Hartshorn
+Ngā mihi
+Richard Hartshorn
