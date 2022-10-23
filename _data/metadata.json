@@ -1,0 +1,21 @@
+{
+  "title": "Data in Research",
+  "url": "https://dir-aotearoa.github.io/",
+  "language": "en",
+  "description": "We are experts, communities and organisations involved in the production, measurement, collection, storage, and use of data in research.",
+  "feed": {
+    "subtitle": "We are experts, communities and organisations involved in the production, measurement, collection, storage, and use of data in research.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://dir-aotearoa.github.io/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://dir-aotearoa.github.io/feed/feed.json"
+  },
+  "author": {
+    "name": "Nick Jones",
+    "email": "n.jones@auckland.ac.nz",
+    "url": "https://profiles.auckland.ac.nz/n-jones"
+  }
+}
