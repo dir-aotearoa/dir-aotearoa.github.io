@@ -1,10 +1,10 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: Committee on Data in Research
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
+  key: Committee
   order: 3
 ---
 
-I am a person that writes stuff.
+Committee
