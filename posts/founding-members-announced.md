@@ -7,6 +7,9 @@ tags:
   - Committee
 layout: layouts/post.njk
 ---
+
+
+
 *The founding members for the Committee on Data in Research have been announced following a [national call for expressions of interest](https://www.royalsociety.org.nz/news/aotearoa-new-zealand-national-committee-on-data-in-research-request-for-expressions-of-interest/) supported by Te Apārangi the Royal Society of New Zealand.*
 
 On behalf of the establishment group for the Aotearoa New Zealand Committee on Data in Research, I am pleased to present the recommended roster for the committee.
