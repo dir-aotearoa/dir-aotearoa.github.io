@@ -6,7 +6,13 @@ eleventyNavigation:
   order: 2
 ---
 
-<h1>Archive</h1>
+<div class="container clear-both mx-auto flex flex-col justify-center items-center">
+  <h1>
+    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">Archive
+    </strong>
+  </h1>
 
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
+
+</div>
