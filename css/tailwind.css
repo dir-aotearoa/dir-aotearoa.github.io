@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*Your Custom CSS Goes here*/
+
+  h1 {
+    @apply text-4xl tracking-tighter mb-3 text-center lg:text-5xl lg:mt-44;
+  }
+  
+  h2 {
+    @apply text-2xl tracking-tighter mb-3 text-left lg:text-2xl lg:mt-24;
+  }
+  
+  h3 {
+    @apply text-xl font-bold mb-3;
+  }
+  
+  /* This isn't working */
+  a.direct_link {
+    opacity: .2;
+  }
+
+  /* Syntax Highlighting*/
+  
+  body :not(pre) > code[class*="language-"],
+  body pre[class*="language-"] {
+    @apply bg-gray-800;
+  }
+  

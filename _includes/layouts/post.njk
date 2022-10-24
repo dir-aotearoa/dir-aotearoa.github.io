@@ -3,26 +3,24 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 
-<div class="container max-w-4xl mt-6 px-6">
-    <div class="pb-5 mb-5 border-b border-gray-100">
-        <h1 class="font-bold text-5xl">
-          <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">{{title}}
-          </strong></h1>
-        <p class="text-center text-base leading-6 font-medium text-gray-500">
-            <time datetime="{{ page.date | htmlDateString }}"> {{ page.date | readableDate }}
-                by
-                <a>{{ author }}</a>
 
-            </time>
-        </p>
-        {%- for tag in tags | filterTagList -%}
-        {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
-        <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-        {%- endfor %}
-      </div>
-    <article class="prose lg:prose-xl my-4 mx-auto">
-        {{ content | safe }}</article>
-  </div>
+<div class="container clear-both mx-auto flex flex-col justify-center items-center">
+  <h1>
+    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">{{title}}
+    </strong>
+  </h1>
+  <p class="text-center text-base leading-6 font-medium text-gray-500">
+    <time datetime="{{ page.date | htmlDateString }}"> {{ page.date | readableDate }}
+      by <a>{{ author }}</a>
+    </time>
+  </p>
+  {%- for tag in tags | filterTagList -%}
+  {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+  {%- endfor %}
+  <article class="prose lg:prose-xl my-4 mx-auto">
+    {{ content | safe }}
+  </article>
 {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
 {%- if nextPost or previousPost %}
@@ -31,4 +29,5 @@ templateClass: tmpl-post
   {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
   {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
 </ul>
+</div>
 {%- endif %}
