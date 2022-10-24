@@ -9,4 +9,8 @@ eleventyNavigation:
 
 ## Sign up for the Forum on Data in Research 
 
-https://mailchi.mp/bfcf1bc62b6e/forum-of-the-aotearoa-new-zealand-committee-on-data-in-research
+* **Mailing List** https://mailchi.mp/bfcf1bc62b6e/forum-of-the-aotearoa-new-zealand-committee-on-data-in-research
+
+## Join in discussions on Slack
+
+* **Slack** https://join.slack.com/t/datainresearch/shared_invite/zt-1il53ht3l-4g4evxG48G0DDB62~RJSkw
