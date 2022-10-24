@@ -19,7 +19,7 @@
         <div class="flex items-center">
           <h1 class="home">
             <a href="{{ '/' | url }}" class="text-indigo-500 font-bold text-lg">
-                {{home}}
+                {{ metadata.title }}
             </a>
           </h1>
         </div>
@@ -39,7 +39,7 @@
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    {% include "../partials/footer.njk" %}
 
     <!-- Current page: {{ page.url | url }} -->
   </body>
