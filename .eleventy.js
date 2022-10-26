@@ -59,8 +59,7 @@ module.exports = function(eleventyConfig) {
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css/prism-base16-monokai.dark.css");
-  eleventyConfig.addPassthroughCopy({    
-    "./node_modules/alpinejs/dist/cdn.min.js": "./static/js/alpine.js"  });
+  eleventyConfig.addPassthroughCopy({"./node_modules/alpinejs/dist/cdn.min.js": "_site/js/alpine.js"});
 
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
