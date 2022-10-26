@@ -56,7 +56,7 @@ module.exports = function(eleventyConfig) {
     return [...tagSet];
   });
 
-  // Copy the `img` and `css` folders to the output
+  // Copy `css/prism*.css` and the `img` and 'js' folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css/prism-base16-monokai.dark.css");
   eleventyConfig.addPassthroughCopy("js");
