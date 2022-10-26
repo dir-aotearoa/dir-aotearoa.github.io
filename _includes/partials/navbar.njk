@@ -18,7 +18,7 @@
 
     <!--Menu-->
     
-    <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto text-center " :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" x-show.transition="true">
+    <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto text-center " :class="{ 'block shadow-3xl': !isOpen, 'hidden': !isOpen }" x-show.transition="true">
     {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center">
       {%- for entry in collections.all | eleventyNavigation %}
