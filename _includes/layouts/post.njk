@@ -9,11 +9,13 @@ templateClass: tmpl-post
     <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">{{title}}
     </strong>
   </h1>
+  {%- if author %}
   <p class="text-center text-base leading-6 font-medium text-gray-500">
     <time datetime="{{ page.date | htmlDateString }}"> {{ page.date | readableDate }}
       by <a>{{ author }}</a>
     </time>
   </p>
+  {%- endif %}
   {%- for tag in tags | filterTagList -%}
   {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
   <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
