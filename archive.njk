@@ -1,18 +1,23 @@
 ---
 layout: layouts/home.njk
 permalink: /posts/
+title: Updates
+description: Updates from the Committee on Data in Research CoDiR and the CoDiR Forum.
 eleventyNavigation:
   key: Archive
   order: 2
 ---
 
 <div class="container clear-both mx-auto flex flex-col justify-center items-center">
-  <h1>
-    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">Archive
-    </strong>
-  </h1>
+  <div class="pb-5 mb-5 border-b border-gray-100">
+    <h1>
+      <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">{{ title }}
+      </strong>
+    </h1>
+  </div>
 
 {% set postslist = collections.posts %}
+
 {% include "postslist.njk" %}
 
 </div>
