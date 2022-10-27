@@ -6,8 +6,7 @@ description: The World Data System promotes long-term stewardship of, and univer
 date: 
 author: 
 tags:
-  - 
-layout: layouts/post.njk
+layout: partials/partners.njk
 ---
 
 The World Data System (WDS) is an Interdisciplinary Body of the [International Science Council](https://council.science/) (ISC; formerly ICSU) created by its 29th General Assembly in Maputo, Mozambique in 2008.

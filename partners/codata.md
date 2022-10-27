@@ -6,8 +6,7 @@ description: CODATA exists to promote global collaboration to improve the availa
 date: 
 author: 
 tags:
-  - 
-layout: layouts/post.njk
+layout: partials/partners.njk
 ---
 
 **[CODATA](https://www.codata.org/)** is the Committee on Data of

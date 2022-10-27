@@ -6,8 +6,7 @@ description: RDA has a grass-roots, inclusive approach covering all data lifecyc
 date: 
 author: 
 tags:
-  - 
-layout: layouts/post.njk
+layout: partials/partners.njk
 ---
 
 ### RDA builds the social and technical bridges to enable the open sharing and re-use of data.
