@@ -2,13 +2,7 @@
 title: World Data System
 url: https://www.worlddatasystem.org/
 logo: /img/wds_logo.png
-description: The World Data System promotes long-term stewardship of, and universal and
-equitable access to, quality-assured scientific data and data services,
-products, and information across all disciplines in the Natural and Social
-Sciences, and the Humanities. WDS aims to facilitate scientific research
-under the ISC umbrella by coordinating and supporting **trusted scientific
-data services** for the provision, use, and preservation of relevant
-datasets, while strengthening their links with the research community.
+description: The World Data System promotes long-term stewardship of, and universal and equitable access to, quality-assured scientific data and data services, products, and information across all disciplines in the Natural and Social Sciences, and the Humanities. WDS aims to facilitate scientific research under the ISC umbrella by coordinating and supporting **trusted scientific data services** for the provision, use, and preservation of relevant datasets, while strengthening their links with the research community.
 date: 
 author: 
 tags:
