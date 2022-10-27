@@ -2,10 +2,7 @@
 title: CODATA - Committee on Data
 url: https://www.codata.org/
 logo: /img/codata_new_logo-1.png
-description: CODATA exists to promote global collaboration to improve the availability
-and usability of data for all areas of research. CODATA supports the
-principle that data produced by research and susceptible to be used for
-research should be as open as possible and as closed as necessary.
+description: CODATA exists to promote global collaboration to improve the availability and usability of data for all areas of research. CODATA supports the principle that data produced by research and susceptible to be used for research should be as open as possible and as closed as necessary.
 date: 
 author: 
 tags:

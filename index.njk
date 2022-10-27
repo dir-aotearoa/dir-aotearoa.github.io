@@ -1,6 +1,7 @@
 ---
 layout: layouts/home.njk
 path: home
+partners: International Associations
 eleventyNavigation:
   key: Home
   order: 1
@@ -10,6 +11,18 @@ eleventyNavigation:
   <h1>
     <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">Committee on {{ metadata.title }}</strong>
 </h1>
+
+
+ <h2>
+  <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+    {{partners}}
+  </strong>
+</h2>
+  
+
+{% set partnerslist = collections.partners | head(-3) %}
+
+{% include "./_includes/partials/partners.njk" %}
 
 
 {% set maxPosts = collections.posts.length | min(3) %}

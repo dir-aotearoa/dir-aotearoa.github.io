@@ -2,14 +2,7 @@
 title: RDA - Research Data Alliance
 url: https://www.rd-alliance.org/
 logo: /img/rda_logo.png
-description: RDA has a grass-roots, inclusive approach covering all data lifecycle
-      stages, engaging data producers, users and stewards, addressing data
-      exchange, processing, and storage. It has succeeded in creating the
-      neutral social platform where international research data experts meet to
-      exchange views and to agree on topics including social hurdles on data
-      sharing, education and training challenges, data management plans and
-      certification of data repositories, disciplinary and interdisciplinary
-      interoperability, as well as technological aspects.
+description: RDA has a grass-roots, inclusive approach covering all data lifecycle stages, engaging data producers, users and stewards, addressing data exchange, processing, and storage. It has succeeded in creating the neutral social platform where international research data experts meet to exchange views and to agree on topics including social hurdles on data sharing, education and training challenges, data management plans and certification of data repositories, disciplinary and interdisciplinary interoperability, as well as technological aspects.
 date: 
 author: 
 tags:
