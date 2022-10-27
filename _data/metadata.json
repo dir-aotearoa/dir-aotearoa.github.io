@@ -1,10 +1,11 @@
 {
-  "title": "Data in Research",
+  "title": "Data in Research Aotearoa",
   "url": "https://dir-aotearoa.github.io/",
   "language": "en",
-  "description": "We are experts, communities and organisations involved in the production, measurement, collection, storage, and use of data in research.",
+  "description": "We are experts, communities, and organisations involved in the production, measurement, collection, storage, and use of data in research.",
+  "partners": "We support delegates to CODATA, WDS, and RDA, facilitating and developing relationships with working groups, task groups, and interest groups working in national and international organisations on data oriented projects.",
   "feed": {
-    "subtitle": "We are experts, communities and organisations involved in the production, measurement, collection, storage, and use of data in research.",
+    "subtitle": "We are experts, communities, and organisations involved in the production, measurement, collection, storage, and use of data in research.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://dir-aotearoa.github.io/"

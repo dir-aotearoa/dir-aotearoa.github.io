@@ -9,23 +9,30 @@ eleventyNavigation:
 
 <div class="container clear-both mx-auto flex flex-col justify-center items-center">
   <h1>
-    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">Committee on {{ metadata.title }}</strong>
-</h1>
+    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+      {{ metadata.title }}
+    </strong>
+  </h1>
+  <p> {{ metadata.description }} </p>
 
-
- <h2>
-  <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-    {{partners}}
-  </strong>
-</h2>
-  
-{% include "_includes/partials/partners.njk" %}
-
-{% set maxPosts = collections.posts.length | min(3) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} updates{% endif %}</h1>
-
+  {% set maxPosts = collections.posts.length | min(3) %}
+  <h2>
+    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+      Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} updates{% endif %}
+    </strong>
+  </h2>
+<div>
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
+</div>
+<p class="clear-both">More posts can be found in <a href="{{ '/posts/' | url }}">Updates</a>.</p>
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+  <h2>
+    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+      {{partners}}
+    </strong>
+  </h2>
+  <p> {{ metadata.partners }} </p>
+
+{% include "_includes/partials/partners.njk" %}
