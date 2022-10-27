@@ -43,7 +43,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("filterTagList", tags => {
     // should match the list in tags.njk
-    return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
+    return (tags || []).filter(tag => ["all", "nav", "post", "posts", "partner", "partners"].indexOf(tag) === -1);
   })
 
   // Create an array of all tags
