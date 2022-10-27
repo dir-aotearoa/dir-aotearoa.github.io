@@ -7,13 +7,16 @@ eleventyNavigation:
   order: 1
 ---
 
-<div class="container clear-both mx-auto flex flex-col justify-center items-center">
+<div class="container clear-both mx-auto my-8 flex flex-col justify-center items-center">
   <h1>
     <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
       {{ metadata.title }}
     </strong>
   </h1>
-  <p> {{ metadata.description }} </p>
+  <div class="max-w-prose">
+    <p> {{ metadata.description }} </p>
+  </div>
+
 
   {% set maxPosts = collections.posts.length | min(3) %}
   <h2>
@@ -21,13 +24,14 @@ eleventyNavigation:
       Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} updates{% endif %}
     </strong>
   </h2>
-<div>
-{% set postslist = collections.posts | head(-3) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
-</div>
-<p class="clear-both">More posts can be found in <a href="{{ '/posts/' | url }}">Updates</a>.</p>
+  <div>
+  {% set postslist = collections.posts | head(-3) %}
+  {% set postslistCounter = collections.posts | length %}
+  {% include "postslist.njk" %}
+  </div>
+  <p class="clear-both">More posts can be found in <a href="{{ '/posts/' | url }}">Updates</a>.</p>
 
+  
   <h2>
     <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
       {{partners}}
@@ -35,4 +39,6 @@ eleventyNavigation:
   </h2>
   <p> {{ metadata.partners }} </p>
 
-{% include "_includes/partials/partners.njk" %}
+  {% include "_includes/partials/partners.njk" %}
+
+</div>
