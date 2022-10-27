@@ -1,16 +1,14 @@
 <div class="w-full max-w-max grid grid-cols-1 lg:grid-cols-3 gap-4 my-8 px-4 lg:mx-0">
-    {% if partnerslist.items %}
-        {% for item in partnerslist.items %}
+    {% set partnerslist = collections.partners %}
 
+    {% if partnerslist.length > 0 %}    
+        {% for item in partnerslist %}
 
-            <a href="{{item.url}}" target="_blank" class="p-5 border rounded border-gray-200 hover:border-purple-400 items-center">
-               
-               <img src="{{item.logo}}" class="p-10 w-max justify-center items-center">
-                <h3>{{item.title}}
-                </h3>
-                <p>{{item.desc}}</p>
+            <a href="{{item.data.url}}" target="_blank" class="p-5 border rounded border-gray-200 hover:border-purple-400 items-center">
+               <img src="{{item.data.logo}}" class="p-10 w-max justify-center items-center">
+                <h3>{{item.data.title}}</h3>
+                <p>{{item.data.description}}</p>
             </a>
-
 
         {% endfor %}
     {% endif %}

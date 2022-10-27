@@ -19,11 +19,7 @@ eleventyNavigation:
   </strong>
 </h2>
   
-
-{% set partnerslist = collections.partners | head(-3) %}
-
-{% include "./_includes/partials/partners.njk" %}
-
+{% include "_includes/partials/partners.njk" %}
 
 {% set maxPosts = collections.posts.length | min(3) %}
 <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} updates{% endif %}</h1>
