@@ -21,7 +21,7 @@ eleventyNavigation:
   {% set maxPosts = collections.posts.length | min(3) %}
   <h2>
     <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-      Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} updates{% endif %}
+      Latest {% if maxPosts == 1 %}update{% else %}{{ maxPosts }}updates{% endif %}
     </strong>
   </h2>
   <div>
@@ -31,7 +31,7 @@ eleventyNavigation:
   </div>
   <p class="clear-both">More posts can be found in <a href="{{ '/posts/' | url }}">Updates</a>.</p>
 
-  
+
   <h2>
     <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
       {{partners}}
