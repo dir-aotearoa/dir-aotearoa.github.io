@@ -93,12 +93,11 @@ module.exports = function(eleventyConfig) {
 
   return {
     // Control which files Eleventy will process
-    // e.g.: *.md, *.njk, *.html, *.liquid
+    // e.g.: *.md, *.njk, *.html
     templateFormats: [
       "md",
       "njk",
-      "html",
-      "liquid"
+      "html"
     ],
 
     // -----------------------------------------------------------------
