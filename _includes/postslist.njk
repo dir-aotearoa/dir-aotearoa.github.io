@@ -4,7 +4,7 @@
     <p>
       <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time></p>
     <p>
-      <a href="{{ post.url | url }}" class="postlist-link text-3xl text-gray-900 mb-2">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></p>
+      <a href="{{ post.url | url }}" class="postlist-link text-3xl text-blue-600 visited:text-purple-600 mb-2">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></p>
   </li>
 {% endfor %}
 </ol>
