@@ -3,7 +3,8 @@ layout: layouts/post.njk
 title: Committee on Data in Research
 templateClass: tmpl-post
 eleventyNavigation:
-  key: Committee
+  key: Terms of Reference
+  parent: Committee
   order: 3
 ---
 

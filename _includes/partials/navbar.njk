@@ -24,6 +24,13 @@
       {%- for entry in collections.all | eleventyNavigation %}
         <li class="nav-item nav__item{% if entry.url == page.url %} nav-item-active{% endif %} mr-3">
           <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="{{ entry.url | url }}">{{ entry.title }}</a>
+          {%- for child in entry.children %}
+            <ul>
+              <li>
+                <a href="{{ child.url | url }}">{{ child.title }}</a>
+              </li>
+            </ul>
+          {%- endfor %}
         </li>
       {%- endfor %}
       </ul>
