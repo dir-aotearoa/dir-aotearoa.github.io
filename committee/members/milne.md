@@ -1,7 +1,7 @@
 ---
-name: Maryam Alavi
-roles: Statistical Scientist, Mathematical Modeler, Data Analyst; Senior Statistical Scientist, Plant & Food Research
-vitae: http://orcid.org/0000-0003-3512-4938
-bio: Data scientist, passionate about using analytics to develop data-driven recommendation-making tools to support better decision-making in complex issues. Experience in identifying practical problems in industry and public sectors, finding solutions and communicating with wide range of stakeholders.
-pic: /img/alavi.jpeg
+name: Barry Milne
+roles: Director, Centre of Methods and Policy in the Social Sciences (COMPASS), University of Auckland
+vitae: https://profiles.auckland.ac.nz/b-milne
+bio: Barry’s research focus is on life-course and longitudinal studies, and using large or complex whole population datasets to answer a broad range of policy and research questions – from analysing the influence of family medical history on the development of psychiatric disorders to looking at what childhood factors can be intervened upon to ensure positive developmental outcomes.
+pic: /img/milne.png
 ---

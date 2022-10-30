@@ -1,7 +1,7 @@
 ---
-name: Maryam Alavi
-roles: Statistical Scientist, Mathematical Modeler, Data Analyst; Senior Statistical Scientist, Plant & Food Research
-vitae: http://orcid.org/0000-0003-3512-4938
-bio: Data scientist, passionate about using analytics to develop data-driven recommendation-making tools to support better decision-making in complex issues. Experience in identifying practical problems in industry and public sectors, finding solutions and communicating with wide range of stakeholders.
-pic: /img/alavi.jpeg
+name: Bapon Fakhruddin
+roles: Technical Director, Disaster Risk Resilience and Climate Resilience at Tonkin + Taylor; Co-Chair, FAIR DATA for DRR, CODATA; Programme Board, Group on Earth Observations (GEO)
+vitae: https://www.linkedin.com/in/bapon/
+bio: An international climate change and disaster risk reduction expert. Experience with climate-vulnerable countries around the world, including in the South Pacific and New Zealand. Expert in climate resilience and responsiveness at the community, government and inter-agency level.
+pic: /img/bapon.jpeg
 ---

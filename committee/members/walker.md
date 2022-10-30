@@ -1,7 +1,7 @@
 ---
-name: Maryam Alavi
-roles: Statistical Scientist, Mathematical Modeler, Data Analyst; Senior Statistical Scientist, Plant & Food Research
-vitae: http://orcid.org/0000-0003-3512-4938
-bio: Data scientist, passionate about using analytics to develop data-driven recommendation-making tools to support better decision-making in complex issues. Experience in identifying practical problems in industry and public sectors, finding solutions and communicating with wide range of stakeholders.
-pic: /img/alavi.jpeg
+name: Grace Walker
+roles: Data scientist producing data for indigenous and minority groups; Postdoctoral Research Fellow, University of Otago; Researcher/Consultant/Director, Think Analytic Ltd
+vitae: https://www.linkedin.com/in/gracewalkernz/
+bio: A Maori data scientist who has a background working with longitudinal data sets. Engages in projects focused on supporting the uptake of data within communities and using data to change the narratives of indigeous and minority populations. Lead of the Maori housing framework with Te Matapihi. A strong advocate for supporting mahi that positively utilises data to benefit communities to enhance mana motuhake as well as encourage the uptake of STEM amongst indigenous and underrepresented groups.
+pic: /img/walker.jpeg
 ---
