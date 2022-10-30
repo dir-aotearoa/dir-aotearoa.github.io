@@ -1,4 +1,5 @@
 ---
+order: 8
 name: Gerald (Jay) Naepi
 roles: Founder, Director, Researcher, Matada Research Group
 vitae: https://www.linkedin.com/in/geraldnaepi/

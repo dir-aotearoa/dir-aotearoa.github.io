@@ -1,4 +1,5 @@
 ---
+order: 7
 name: Barry Milne
 roles: Director, Centre of Methods and Policy in the Social Sciences (COMPASS), University of Auckland
 vitae: https://profiles.auckland.ac.nz/b-milne

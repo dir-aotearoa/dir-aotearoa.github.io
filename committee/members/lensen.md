@@ -1,4 +1,5 @@
 ---
+order: 6
 name: Andrew Lensen
 roles: Lecturer, Evolutionary Computation Research Group, School of Engineering and Computer Science, Victoria University of Wellington; Artificial Intelligence (Pūkenga)
 vitae: https://people.wgtn.ac.nz/andrew.lensen

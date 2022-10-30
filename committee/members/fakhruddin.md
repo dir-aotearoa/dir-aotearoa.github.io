@@ -1,4 +1,5 @@
 ---
+order: 3
 name: Bapon Fakhruddin
 roles: Technical Director, Disaster Risk Resilience and Climate Resilience at Tonkin + Taylor; Co-Chair, FAIR DATA for DRR, CODATA; Programme Board, Group on Earth Observations (GEO)
 vitae: https://www.linkedin.com/in/bapon/

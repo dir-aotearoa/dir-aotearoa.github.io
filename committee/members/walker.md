@@ -1,4 +1,5 @@
 ---
+order: 9
 name: Grace Walker
 roles: Data scientist producing data for indigenous and minority groups; Postdoctoral Research Fellow, University of Otago; Researcher/Consultant/Director, Think Analytic Ltd
 vitae: https://www.linkedin.com/in/gracewalkernz/

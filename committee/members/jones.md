@@ -1,4 +1,5 @@
 ---
+order: 4
 name: Nick Jones
 roles: Director New Zealand eScience Infrastructure; RDA Organisational Advisory Board; Research Software & Data - Skills & Infrastructure
 vitae: https://profiles.auckland.ac.nz/n-jones
