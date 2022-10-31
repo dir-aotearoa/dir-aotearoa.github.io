@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data in Research Aotearoa</title>
+    <meta name="description" content="We are experts, communities, and organisations involved in the production, measurement, collection, storage, and use of data in research.">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <script src="/js/alpine.js"></script>
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Data in Research Aotearoa">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Data in Research Aotearoa">
+  </head>
+  <body>
+    <header>
+
+    <div class="fixed w-full">
+  <nav class="flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto backdrop-blur-md" x-data="{ isOpen: false }" @keydown.escape="isOpen = false"  @click.away="isOpen = false">
+
+    <!--Logo etc-->
+
+    <div class="flex items-center">
+        <a href="/" class="text-indigo-500 font-bold text-lg">Data in Research Aotearoa
+        </a>
+    </div>
+
+    <!--Toggle button (hidden on large screens)-->
+    <button @click="isOpen = !isOpen" type="button" class="ml-auto block lg:hidden px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500" :class="{ 'transition transform-180': isOpen }" aria-label="Menu">
+        <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+            <path x-show="isOpen" fill-rule="evenodd" clip-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
+            <path x-show="!isOpen" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+        </svg>
+    </button>
+
+    <!--Menu-->
+    
+    <div class="w-full flex-grow lg:flex lg:items-start lg:w-auto text-center " :class="{ 'block shadow-3xl': !isOpen, 'hidden': !isOpen }" x-show.transition="true">
+      <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-start">
+        <li class="nav-item nav__item mr-3">
+          <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/">Home</a>
+        </li>
+        <li class="nav-item nav__item mr-3">
+          <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/posts/">Updates</a>
+        </li>
+        <li class="nav-item nav__item mr-3">
+          <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/committee/members/">Committee</a>
+            <ul>
+              <li class="nav-item">
+                <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/committee/">Terms of Reference</a>
+              </li>
+            </ul>
+        </li>
+        <li class="nav-item nav__item mr-3">
+          <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/forum/">Forum</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+    </header>
+
+    <main class="tmpl-home">
+
+      <table>
+  <thead>
+    <tr>
+      <th>URL</th>
+      <th>Page Title</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><a href="/docs/partners/codata/"><code>/docs/partners/codata/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/partners/rda/"><code>/docs/partners/rda/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/partners/wds/"><code>/docs/partners/wds/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/posts/"><code>/docs/posts/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/posts/founding-members-announced/"><code>/docs/posts/founding-members-announced/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/tags/"><code>/docs/tags/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/tags/committee/"><code>/docs/tags/committee/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/tags/members/"><code>/docs/tags/members/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/tags/partners/"><code>/docs/tags/partners/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/_site/404/"><code>/docs/_site/404/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/_site/"><code>/docs/_site/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/_site/committee/"><code>/docs/_site/committee/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/_site/docs/"><code>/docs/_site/docs/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/_site/forum/"><code>/docs/_site/forum/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/_site/page-list/"><code>/docs/_site/page-list/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/_site/posts/"><code>/docs/_site/posts/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/_site/tags/"><code>/docs/_site/tags/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/_site/committee/members/"><code>/docs/_site/committee/members/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/_site/docs/404/"><code>/docs/_site/docs/404/</code></a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="/docs/_site/docs/committee/"><code>/docs/_site/docs/committee/</code></a></td>
+    <td></td>
+  </tr>
+  </tbody>
+</table>
+
+
+    </main>
+
+    <footer class=" h-max bottom-0 text-center w-full py-4">
+    <small class="text-gray-500">Copyright ©
+        
+        2022. Made with ❤
+    </small>
+</footer>
+
+    <!-- Current page: /page-list/2/ -->
+
+  </body>
+</html>
