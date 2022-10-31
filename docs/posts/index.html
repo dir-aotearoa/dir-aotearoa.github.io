@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data in Research Aotearoa</title>
-    <meta name="description" content="We are experts, communities, and organisations involved in the production, measurement, collection, storage, and use of data in research.">
+    <title>Updates</title>
+    <meta name="description" content="Updates from the Committee on Data in Research CoDiR and the CoDiR Forum.">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <script src="/js/alpine.js"></script>
@@ -40,7 +40,7 @@
         <li class="nav-item nav__item mr-3">
           <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/">Home</a>
         </li>
-        <li class="nav-item nav__item mr-3">
+        <li class="nav-item nav__item nav-item-active mr-3">
           <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/posts/">Updates</a>
         </li>
         <li class="nav-item nav__item mr-3">
@@ -63,29 +63,31 @@
 
     <main class="tmpl-home">
 
-      <table>
-  <thead>
-    <tr>
-      <th>URL</th>
-      <th>Page Title</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td><a href="/tags/members/"><code>/tags/members/</code></a></td>
-    <td>Tagged “members”</td>
-  </tr>
-  <tr>
-    <td><a href="/tags/partners/"><code>/tags/partners/</code></a></td>
-    <td>Tagged “partners”</td>
-  </tr>
-  <tr>
-    <td><a href="/forum/"><code>/forum/</code></a></td>
-    <td>Forum on Data in Research</td>
-  </tr>
-  </tbody>
-</table>
+      
+<div class="container clear-both mx-auto flex flex-col justify-center items-center">
+  <div class="pb-5 mb-5 border-b border-gray-100">
+    <h1>
+      <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+      Updates
+      </strong>
+    </h1>
+  </div>
 
+
+
+<ol reversed class="postlist" style="counter-reset: start-from 2">
+
+  <li class="postlist-item">
+    <p>
+      <time class="postlist-date" datetime="2022-07-11">11 Jul 2022</time></p>
+    <p>
+      <a href="/posts/founding-members-announced/" class="postlist-link text-3xl text-blue-600 visited:text-purple-600 mb-2">Founding members announced.</a></p>
+  </li>
+
+</ol>
+
+
+</div>
 
     </main>
 
@@ -96,7 +98,7 @@
     </small>
 </footer>
 
-    <!-- Current page: /page-list/1/ -->
+    <!-- Current page: /posts/ -->
 
   </body>
 </html>
