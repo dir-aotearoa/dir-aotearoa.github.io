@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data in Research Aotearoa</title>
+    <meta name="description" content="We are experts, communities, and organisations involved in the production, measurement, collection, storage, and use of data in research.">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <script src="/js/alpine.js"></script>
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Data in Research Aotearoa">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Data in Research Aotearoa">
+  </head>
+  <body>
+    <header>
+
+    <div class="fixed w-full">
+  <nav class="flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto backdrop-blur-md" x-data="{ isOpen: false }" @keydown.escape="isOpen = false"  @click.away="isOpen = false">
+
+    <!--Logo etc-->
+
+    <div class="flex items-center">
+        <a href="/" class="text-indigo-500 font-bold text-lg">Data in Research Aotearoa
+        </a>
+    </div>
+
+    <!--Toggle button (hidden on large screens)-->
+    <button @click="isOpen = !isOpen" type="button" class="ml-auto block lg:hidden px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500" :class="{ 'transition transform-180': isOpen }" aria-label="Menu">
+        <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+            <path x-show="isOpen" fill-rule="evenodd" clip-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
+            <path x-show="!isOpen" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+        </svg>
+    </button>
+
+    <!--Menu-->
+    
+    <div class="w-full flex-grow lg:flex lg:items-start lg:w-auto text-center " :class="{ 'block shadow-3xl': !isOpen, 'hidden': !isOpen }" x-show.transition="true">
+      <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-start">
+        <li class="nav-item nav__item nav-item-active mr-3">
+          <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/">Home</a>
+        </li>
+        <li class="nav-item nav__item mr-3">
+          <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/posts/">Updates</a>
+        </li>
+        <li class="nav-item nav__item mr-3">
+          <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/committee/members/">Committee</a>
+            <ul>
+              <li class="nav-item">
+                <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/committee/">Terms of Reference</a>
+              </li>
+            </ul>
+        </li>
+        <li class="nav-item nav__item mr-3">
+          <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/forum/">Forum</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+    </header>
+
+    <main class="tmpl-home">
+
+      
+<div class="container clear-both mx-auto my-8 flex flex-col place-items-center">
+  <h1>
+    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+      Data in Research Aotearoa
+    </strong>
+  </h1>
+  <div class="max-w-prose">
+    <p> We are experts, communities, and organisations involved in the production, measurement, collection, storage, and use of data in research. </p>
+  </div>
+</div>
+
+<div class="container clear-both mx-auto flex flex-col place-items-start">
+  
+  <div class="p-5 items-start">
+    <h2 class="mt-12">
+        <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+          Latest update
+        </strong>
+    </h2>
+    
+    
+    <ol reversed class="postlist" style="counter-reset: start-from 2">
+
+  <li class="postlist-item">
+    <p>
+      <time class="postlist-date" datetime="2022-07-11">11 Jul 2022</time></p>
+    <p>
+      <a href="/posts/founding-members-announced/" class="postlist-link text-3xl text-blue-600 visited:text-purple-600 mb-2">Founding members announced.</a></p>
+  </li>
+
+</ol>
+
+    <p class="clear-both my-4 text-right">More posts can be found in <a class="text-blue-600 visited:text-purple-600" href="/posts/">Updates</a>.</p>
+  </div>
+
+  <h2 class="mt-12">
+    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500 mt-4">
+      International Associations
+    </strong>
+  </h2>
+  <p> We support delegates to CODATA, WDS, and RDA, facilitating and developing relationships with working groups, task groups, and interest groups working in national and international organisations on data oriented projects. </p>
+
+  <div class="w-full max-w-max grid grid-cols-1 lg:grid-cols-3 gap-4 my-8 px-4 lg:mx-0">
+    
+
+        
+        
+
+            <a href="https://www.codata.org/" target="_blank" class="p-5 border rounded border-gray-200 hover:border-purple-400 items-center">
+               <img src="/img/codata_new_logo-1.png" class="p-10 w-max justify-center items-center">
+                <h3>CODATA - Committee on Data</h3>
+                <p>CODATA exists to promote global collaboration to improve the availability and usability of data for all areas of research. CODATA supports the principle that data produced by research and susceptible to be used for research should be as open as possible and as closed as necessary.</p>
+            </a>
+        
+
+            <a href="https://www.rd-alliance.org/" target="_blank" class="p-5 border rounded border-gray-200 hover:border-purple-400 items-center">
+               <img src="/img/rda_logo.png" class="p-10 w-max justify-center items-center">
+                <h3>RDA - Research Data Alliance</h3>
+                <p>RDA has a grass-roots, inclusive approach covering all data lifecycle stages, engaging data producers, users and stewards, addressing data exchange, processing, and storage. It has succeeded in creating the neutral social platform where international research data experts meet to exchange views and to agree on topics including social hurdles on data sharing, education and training challenges, data management plans and certification of data repositories, disciplinary and interdisciplinary interoperability, as well as technological aspects.</p>
+            </a>
+        
+
+            <a href="https://www.worlddatasystem.org/" target="_blank" class="p-5 border rounded border-gray-200 hover:border-purple-400 items-center">
+               <img src="/img/wds_logo.png" class="p-10 w-max justify-center items-center">
+                <h3>World Data System</h3>
+                <p>The World Data System promotes long-term stewardship of, and universal and equitable access to, quality-assured scientific data and data services, products, and information across all disciplines in the Natural and Social Sciences, and the Humanities. WDS aims to facilitate scientific research under the ISC umbrella by coordinating and supporting **trusted scientific data services** for the provision, use, and preservation of relevant datasets, while strengthening their links with the research community.</p>
+            </a>
+        
+    
+</div>
+</div>
+
+    </main>
+
+    <footer class="lg:fixed h-max bottom-0 text-center w-full py-4">
+    <small class="text-gray-500">Copyright ©
+        
+        2022. Made with ❤
+    </small>
+</footer>
+
+    <!-- Current page: / -->
+
+  </body>
+</html>
