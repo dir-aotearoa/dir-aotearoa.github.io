@@ -7,37 +7,41 @@ eleventyNavigation:
   order: 1
 ---
 
-<div class="container clear-both mx-auto flex flex-col place-items-center">
-  <h1>
-    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-      {{ metadata.title }}
-    </strong>
-  </h1>
-  <div class="max-w-prose">
-    <p> {{ metadata.description }} </p>
-  </div>
+
+<div class="flex p-10">
+    <div class="w-3/5 flex-col p-20 place-items-center">
+        <h1>
+            <div class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+                {{ metadata.title }}
+            </div>
+        </h1>
+        <div class="max-w-prose">
+            <p> {{ metadata.description }} </p>
+        </div>
+    </div>
+
+    <div class="w-2/5 flex-col p-10 place-items-center">
+    {% set maxPosts = collections.posts.length | min(3) %}
+        <div class="p-5 mt-12 items-start">
+            <h2>
+                <div class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+            Latest {% if maxPosts == 1 %}update{% else %}{{ maxPosts }}updates{% endif %}
+                </div>
+            </h2>
+            {% set postslist = collections.posts | head(-3) %}
+            {% set postslistCounter = collections.posts | length %}
+            {% include "postslist.njk" %}
+            <p class="clear-both my-4 text-right">More posts can be found in <a class="text-blue-600 visited:text-purple-600" href="{{ '/posts/' | url }}">Updates</a>.</p>
+        </div>
+    </div>
 </div>
 
-<div class="container clear-both mx-auto flex flex-col place-items-start">
-  {% set maxPosts = collections.posts.length | min(3) %}
-  <div class="p-5 items-start">
-    <h2 class="mt-12">
-        <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-          Latest {% if maxPosts == 1 %}update{% else %}{{ maxPosts }}updates{% endif %}
-        </strong>
+<div class="container p-20">
+    <h2 class="">
+        <div class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500 mt-4">
+            {{partners}}
+        </div>
     </h2>
-    {% set postslist = collections.posts | head(-3) %}
-    {% set postslistCounter = collections.posts | length %}
-    {% include "postslist.njk" %}
-    <p class="clear-both my-4 text-right">More posts can be found in <a class="text-blue-600 visited:text-purple-600" href="{{ '/posts/' | url }}">Updates</a>.</p>
-  </div>
-
-  <h2 class="mt-12">
-    <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500 mt-4">
-      {{partners}}
-    </strong>
-  </h2>
-  <p> {{ metadata.partners }} </p>
-
-  {% include "_includes/partials/partners.njk" %}
+    <p> {{ metadata.partners }} </p>
+    {% include "_includes/partials/partners.njk" %}
 </div>
