@@ -9,9 +9,9 @@ eleventyNavigation:
 
 
 <div class="flex p-10">
-    <div class="w-2/5 flex-col box-content pl-10 place-items-center">
+    <div class="w-3/6 flex-col box-content pl-20 place-items-center">
         <h1>
-            <div class="whitespace-nowrap overflow-visible bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
+            <div class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
                 {{ metadata.title }}
             </div>
         </h1>
@@ -19,8 +19,8 @@ eleventyNavigation:
             <p> {{ metadata.description }} </p>
         </div>
     </div>
-    <div class="w-1/5 p-10"></div>
-    <div class="w-2/5 flex-col p-10 mt-12 place-items-center">
+    <div class="w-1/6 p-4"></div>
+    <div class="w-2/6 flex-col p-5 mt-12 place-items-center">
     {% set maxPosts = collections.posts.length | min(3) %}
         <div class="p-5 mt-20 items-start">
             <h2>
