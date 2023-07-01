@@ -1135,6 +1135,10 @@ video {
   margin-bottom: auto;
 }
 
+.ml-12 {
+  margin-left: 3rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -1161,6 +1165,10 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .mt-auto {
@@ -1346,6 +1354,10 @@ video {
   resize: both;
 }
 
+.list-disc {
+  list-style-type: disc;
+}
+
 .grid-flow-dense {
   grid-auto-flow: dense;
 }
@@ -1442,10 +1454,6 @@ video {
 
 .overflow-clip {
   overflow: clip;
-}
-
-.overflow-visible {
-  overflow: visible;
 }
 
 .overflow-x-clip {
@@ -1721,10 +1729,6 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .font-extralight {

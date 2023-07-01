@@ -17,6 +17,10 @@ eleventyNavigation:
         </h1>
         <div class="">
             <p> {{ metadata.description }} </p>
+            <ul class="list-disc mt-8 ml-12">
+                <li><a class="text-blue-600 visited:text-purple-600" href="{{ '/committee/' | url }}">Learn more</a> about the {{ metadata.committee }} </li>
+                <li><a class="text-blue-600 visited:text-purple-600" href="{{ '/forum/' | url }}">Learn more</a> about the {{ metadata.forum }} </li>
+            </ul>
         </div>
     </div>
     <div class="w-1/6 p-4"></div>
