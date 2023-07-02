@@ -3,10 +3,10 @@
   "version": "5.0.2",
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
-    "build": "eleventy & npx tailwindcss -i ./css/tailwind.css -o ./_site/css/style.css",
-    "watch": "eleventy --watch & npx tailwindcss -i ./css/tailwind.css -o ./_site/css/style.css",
-    "serve": "eleventy --serve & npx tailwindcss -i ./css/tailwind.css -o ./_site/css/style.css",
-    "start": "eleventy --serve & npx tailwindcss -i ./css/tailwind.css -o ./_site/css/style.css",
+    "build": "eleventy & npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
+    "watch": "eleventy --watch & npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
+    "serve": "eleventy --serve & npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
+    "start": "eleventy --serve & npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
     "debug": "DEBUG=* eleventy"
   },
   "repository": {
