@@ -28,7 +28,7 @@ eleventyNavigation:
         <div class="p-5 mt-20 items-start">
             <h2>
                 <div class="whitespace-nowrap bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-                    Latest {% if maxPosts == 1 %}update{% else %}{{ maxPosts }}updates{% endif %}
+                    Latest {% if maxPosts == 1 %}update{% else %}updates{% endif %}
                 </div>
             </h2>
             {% set postslist = collections.posts | head(-3) %}
