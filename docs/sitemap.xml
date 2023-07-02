@@ -22,36 +22,6 @@
   </url>
   
   <url>
-    <loc>https://dir-aotearoa.github.io/</loc>
-    <lastmod>2023-07-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dir-aotearoa.github.io/page-list/</loc>
-    <lastmod>2023-07-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dir-aotearoa.github.io/tags/</loc>
-    <lastmod>2023-07-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dir-aotearoa.github.io/tags/committee/</loc>
-    <lastmod>2023-07-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dir-aotearoa.github.io/tags/members/</loc>
-    <lastmod>2023-07-02</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dir-aotearoa.github.io/tags/partners/</loc>
-    <lastmod>2023-07-02</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dir-aotearoa.github.io/committee/members/</loc>
     <lastmod>2023-07-02</lastmod>
   </url>
@@ -117,6 +87,16 @@
   </url>
   
   <url>
+    <loc>https://dir-aotearoa.github.io/</loc>
+    <lastmod>2023-07-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dir-aotearoa.github.io/page-list/</loc>
+    <lastmod>2023-07-02</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dir-aotearoa.github.io/partners/codata/</loc>
     <lastmod>2023-07-02</lastmod>
   </url>
@@ -128,6 +108,26 @@
   
   <url>
     <loc>https://dir-aotearoa.github.io/partners/wds/</loc>
+    <lastmod>2023-07-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dir-aotearoa.github.io/tags/</loc>
+    <lastmod>2023-07-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dir-aotearoa.github.io/tags/partners/</loc>
+    <lastmod>2023-07-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dir-aotearoa.github.io/tags/members/</loc>
+    <lastmod>2023-07-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dir-aotearoa.github.io/tags/committee/</loc>
     <lastmod>2023-07-02</lastmod>
   </url>
 </urlset>
