@@ -1,7 +1,7 @@
 ---
 title: Aotearoa NZ Data Landscape Review
 description: We propose to undertake a landscape review of data in research. The review will: Summarise the research data landscape in Aotearoa; identifying the key actors, institutions and initiatives in both the public and private sectors; Identify challenges and opportunities for the current research data ecosystem; Consider issues relating to Māori data sovereignty.
-date: 2022-06
+date: 2022-06-01
 author: Richard Hartshorn, Tahu Kukutai
 tags:
   - Committee
