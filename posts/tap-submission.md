@@ -17,15 +17,15 @@ b. The submitters come from a range of research sector backgrounds and roles. We
 c. We’re making this submission as we’re recognising common interests around data in research despite our diverse situations and needs. These interests lie in exploring values and principles, addressing policies and practices, and promoting goals and investments across a wide range of communities and institutions within the research sector. As we embark, our vision for the future is somewhat constrained by a high degree of fragmentation across the sector - there is no holistic view of the research data landscape, nor a recognisable body that aspires to establish a vision for this essential aspect of a modern research sector. Aotearoa New Zealand is not advanced in the capability to exploit research data and therefore unable to maximise the value of research data as an asset/taonga, and ensure reuse of data or reproducibility to increase the trust in science.
 
 Submitters
-○ Michelle Blake, University Librarian, University of Waikato
-○ Richard Hartshorn, Professor of Chemistry, University of Canterbury, and Secretary General of the
+* Michelle Blake, University Librarian, University of Waikato
+* Richard Hartshorn, Professor of Chemistry, University of Canterbury, and Secretary General of the
 International Union of Pure and Applied Chemistry
-○ Nick Jones, Director, NeSI - New Zealand eScience Infrastructure, University of Auckland
-○ Kristin Stock, Director, Massey Geoinformatics Collaboratory, Massey University
-○ Ilze Ziedins, University of Auckland
-○ Bapon Fakhruddin, Tonkin + Taylor
-○ Blair Hall, Measurement Standards Laboratory of New Zealand, Callaghan Innovation
-○ Maui Hudson, Te Kotahi Research Institute, University of Waikato
+* Nick Jones, Director, NeSI - New Zealand eScience Infrastructure, University of Auckland
+* Kristin Stock, Director, Massey Geoinformatics Collaboratory, Massey University
+* Ilze Ziedins, University of Auckland
+* Bapon Fakhruddin, Tonkin + Taylor
+* Blair Hall, Measurement Standards Laboratory of New Zealand, Callaghan Innovation
+* Maui Hudson, Te Kotahi Research Institute, University of Waikato
 
 This submission represents our views as individuals, and may not necessarily reflect the view of our employing
 institutions.
@@ -33,11 +33,11 @@ institutions.
 What does good look like?
 
 d. Our collective ambition for data in research is rich in potential:
-● ethics and quality in the way data is incorporated into and applied within research, with a focus on being in service to the communities and environments it characterises and with a te ao Māori appreciation woven throughout;
-● description of data standardised in support of research integrity and accuracy, underpinning quality and reproducible research;
-● research skills, practice, and infrastructure that enable researchers to make data as open as possible and as closed as necessary, all the while embracing FAIR and CARE principles;
-● research institutions, policies, and funding which enable appropriate sharing of knowledge across horizons of research, including into practical application to enhance cultural, social, environmental, and economic outcomes;
-● Māori-led research data spaces, founded on co-governance and with autonomy on priority setting and investment.
+* ethics and quality in the way data is incorporated into and applied within research, with a focus on being in service to the communities and environments it characterises and with a te ao Māori appreciation woven throughout;
+* description of data standardised in support of research integrity and accuracy, underpinning quality and reproducible research;
+* research skills, practice, and infrastructure that enable researchers to make data as open as possible and as closed as necessary, all the while embracing FAIR and CARE principles;
+* research institutions, policies, and funding which enable appropriate sharing of knowledge across horizons of research, including into practical application to enhance cultural, social, environmental, and economic outcomes;
+* Māori-led research data spaces, founded on co-governance and with autonomy on priority setting and investment.
 
 e. Research is increasingly interdisciplinary, as illustrated by global grand challenges of the kind embodied in the UN Sustainable Development Goals, the Sendai Framework (2015-2030), Paris Climate Agreement (UNFCC 2015), and the Habitat III New Urban Agenda (United Nations Habitat III 2016), and this requires the development of new connections between people and between organisations, particularly in the context of data and data management. Sharing best practice and building relationships, both nationally and internationally, will add value to the work that we do, and open up new opportunities for collaborative research with enhanced benefit to Aotearoa New Zealand.
 

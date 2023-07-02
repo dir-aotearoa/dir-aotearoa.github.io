@@ -5,12 +5,40 @@
 	
 	<link href="https://dir-aotearoa.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://dir-aotearoa.github.io/"/>
-	<updated>2022-07-11T00:00:00Z</updated>
+	<updated>2023-07-02T06:06:20Z</updated>
 	<id>https://dir-aotearoa.github.io/</id>
 	<author>
 		<name>Nick Jones</name>
 		<email>n.jones@auckland.ac.nz</email>
 	</author>
+	
+	<entry>
+		<title></title>
+		<link href="https://dir-aotearoa.github.io/posts/landscape-review-proposal/"/>
+		<updated>2023-07-02T06:06:20Z</updated>
+		<id>https://dir-aotearoa.github.io/posts/landscape-review-proposal/</id>
+		<content type="html">&lt;hr /&gt;
+&lt;p&gt;title: Aotearoa NZ Data Landscape Review&lt;br /&gt;
+description: We propose to undertake a landscape review of data in research. The review will: Summarise the research data landscape in Aotearoa; identifying the key actors, institutions and initiatives in both the public and private sectors; Identify challenges and opportunities for the current research data ecosystem; Consider issues relating to Māori data sovereignty.&lt;br /&gt;
+date: 2022-06&lt;br /&gt;
+author: Richard Hartshorn, Tahu Kukutai&lt;br /&gt;
+tags:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Committee&lt;br /&gt;
+layout: layouts/post.njk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;The Aotearoa New Zealand National Committee on Data in Research is a newly established group which brings together a diverse range of experts, communities, and organisations involved in the production, measurement, collection, storage, and use of data in research. The Committee provides a unique forum for identifying the challenges, opportunities, and initiatives which characterise Aotearoa’s current and future research data ecosystem, and connects to the global research ecosystem through national membership roles within such bodies as CODATA, WDS, and RDA. The committee recognises the uniqueness of Te Tiriti o Waitangi as a guiding and innovative force and supports the principles of Indigenous and Māori data sovereignty. A core group (Richard Hartshorn, Tahu Kukutai, Nick Jones, Michelle Blake, Bapon Fakhruddin, Ilze Ziedins) has been assembled to progress the Committee’s goals, and to generate and maintain momentum. Initiation of key projects was rapidly identified as a practical and necessary route to such outcomes.&lt;/p&gt;
+&lt;p&gt;As an initial project, the core group has identified the need for an Aotearoa data landscape review. Several landscape-type initiatives have been undertaken, but all have major gaps. The AI Forum 2018 report ‘Artificial Intelligence: Shaping a Future New Zealand’ provided limited mapping of the emerging Aotearoa AI landscape, but was largely focused on discussing the economic and societal implications and recommendations for removing barriers and challenges to AI adoption. Issues relating to Māori, mātauranga Māori, and Māori data sovereignty remained largely unaddressed. Furthermore, the challenges inherent in the data lifecycle are much broader than those related to the AI technologies that can be applied at points in that lifecycle.&lt;/p&gt;
+&lt;p&gt;The Royal Society Te Apārangi 2019 report ‘The age of artificial intelligence in Aotearoa’ summarised the risks and opportunities of AI for Aotearoa, but its main purpose was to connect to a much larger report on AI and wellbeing from the Australian Council of Learned Academies. The now-defunct New Zealand Data Futures Forum produced a range of reports focused on how to accelerate Aotearoa to be the world leader in the trusted use of shared data. None of these initiatives provided a clear summary of the state of data in Aotearoa.&lt;/p&gt;
+&lt;p&gt;Using the example of the Canadian research data management landscape review, we propose to undertake a landscape review of data in research. The review will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Summarise the research data landscape in Aotearoa, identifying the key actors, institutions and initiatives in both the public and private sectors.&lt;/li&gt;
+&lt;li&gt;Identify challenges and opportunities for the current research data ecosystem.&lt;/li&gt;
+&lt;li&gt;Consider issues relating to Māori data sovereignty.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Founding members announced.</title>
@@ -49,25 +77,29 @@ Richard Hartshorn&lt;/p&gt;
 &lt;p&gt;a. This submission is from a small group of colleagues from diverse backgrounds and roles in research who have convened around a common theme of data in research. The submitters are part of a formative group looking to establish a cross-sector committee on data in research at the request of the Royal Society Te Apārangi. The committee on data in research aims to promote and connect across a broad and inclusive landscape, identifying the challenges, needs, opportunities, and initiatives which characterise Aotearoa New Zealand’s current and future research ecosystem. The committee recognises the uniqueness of the Te Tiriti partnership as a guiding and innovative force, and aims to facilitate broader awareness of opportunities and connections within a global research ecosystem, including taking on a role of national membership within such bodies as CODATA, WDS, and RDA.&lt;/p&gt;
 &lt;p&gt;b. The submitters come from a range of research sector backgrounds and roles. We embrace an inclusive definition of research including Mātauranga Māori, which assumes governance, leadership, and priority setting in relevant spaces belongs with Māori.&lt;/p&gt;
 &lt;p&gt;c. We’re making this submission as we’re recognising common interests around data in research despite our diverse situations and needs. These interests lie in exploring values and principles, addressing policies and practices, and promoting goals and investments across a wide range of communities and institutions within the research sector. As we embark, our vision for the future is somewhat constrained by a high degree of fragmentation across the sector - there is no holistic view of the research data landscape, nor a recognisable body that aspires to establish a vision for this essential aspect of a modern research sector. Aotearoa New Zealand is not advanced in the capability to exploit research data and therefore unable to maximise the value of research data as an asset/taonga, and ensure reuse of data or reproducibility to increase the trust in science.&lt;/p&gt;
-&lt;p&gt;Submitters&lt;br /&gt;
-○ Michelle Blake, University Librarian, University of Waikato&lt;br /&gt;
-○ Richard Hartshorn, Professor of Chemistry, University of Canterbury, and Secretary General of the&lt;br /&gt;
-International Union of Pure and Applied Chemistry&lt;br /&gt;
-○ Nick Jones, Director, NeSI - New Zealand eScience Infrastructure, University of Auckland&lt;br /&gt;
-○ Kristin Stock, Director, Massey Geoinformatics Collaboratory, Massey University&lt;br /&gt;
-○ Ilze Ziedins, University of Auckland&lt;br /&gt;
-○ Bapon Fakhruddin, Tonkin + Taylor&lt;br /&gt;
-○ Blair Hall, Measurement Standards Laboratory of New Zealand, Callaghan Innovation&lt;br /&gt;
-○ Maui Hudson, Te Kotahi Research Institute, University of Waikato&lt;/p&gt;
+&lt;p&gt;Submitters&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Michelle Blake, University Librarian, University of Waikato&lt;/li&gt;
+&lt;li&gt;Richard Hartshorn, Professor of Chemistry, University of Canterbury, and Secretary General of the&lt;br /&gt;
+International Union of Pure and Applied Chemistry&lt;/li&gt;
+&lt;li&gt;Nick Jones, Director, NeSI - New Zealand eScience Infrastructure, University of Auckland&lt;/li&gt;
+&lt;li&gt;Kristin Stock, Director, Massey Geoinformatics Collaboratory, Massey University&lt;/li&gt;
+&lt;li&gt;Ilze Ziedins, University of Auckland&lt;/li&gt;
+&lt;li&gt;Bapon Fakhruddin, Tonkin + Taylor&lt;/li&gt;
+&lt;li&gt;Blair Hall, Measurement Standards Laboratory of New Zealand, Callaghan Innovation&lt;/li&gt;
+&lt;li&gt;Maui Hudson, Te Kotahi Research Institute, University of Waikato&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;This submission represents our views as individuals, and may not necessarily reflect the view of our employing&lt;br /&gt;
 institutions.&lt;/p&gt;
 &lt;p&gt;What does good look like?&lt;/p&gt;
-&lt;p&gt;d. Our collective ambition for data in research is rich in potential:&lt;br /&gt;
-● ethics and quality in the way data is incorporated into and applied within research, with a focus on being in service to the communities and environments it characterises and with a te ao Māori appreciation woven throughout;&lt;br /&gt;
-● description of data standardised in support of research integrity and accuracy, underpinning quality and reproducible research;&lt;br /&gt;
-● research skills, practice, and infrastructure that enable researchers to make data as open as possible and as closed as necessary, all the while embracing FAIR and CARE principles;&lt;br /&gt;
-● research institutions, policies, and funding which enable appropriate sharing of knowledge across horizons of research, including into practical application to enhance cultural, social, environmental, and economic outcomes;&lt;br /&gt;
-● Māori-led research data spaces, founded on co-governance and with autonomy on priority setting and investment.&lt;/p&gt;
+&lt;p&gt;d. Our collective ambition for data in research is rich in potential:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ethics and quality in the way data is incorporated into and applied within research, with a focus on being in service to the communities and environments it characterises and with a te ao Māori appreciation woven throughout;&lt;/li&gt;
+&lt;li&gt;description of data standardised in support of research integrity and accuracy, underpinning quality and reproducible research;&lt;/li&gt;
+&lt;li&gt;research skills, practice, and infrastructure that enable researchers to make data as open as possible and as closed as necessary, all the while embracing FAIR and CARE principles;&lt;/li&gt;
+&lt;li&gt;research institutions, policies, and funding which enable appropriate sharing of knowledge across horizons of research, including into practical application to enhance cultural, social, environmental, and economic outcomes;&lt;/li&gt;
+&lt;li&gt;Māori-led research data spaces, founded on co-governance and with autonomy on priority setting and investment.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;e. Research is increasingly interdisciplinary, as illustrated by global grand challenges of the kind embodied in the UN Sustainable Development Goals, the Sendai Framework (2015-2030), Paris Climate Agreement (UNFCC 2015), and the Habitat III New Urban Agenda (United Nations Habitat III 2016), and this requires the development of new connections between people and between organisations, particularly in the context of data and data management. Sharing best practice and building relationships, both nationally and internationally, will add value to the work that we do, and open up new opportunities for collaborative research with enhanced benefit to Aotearoa New Zealand.&lt;/p&gt;
 &lt;p&gt;f. We see a prominent role for Aotearoa New Zealand in the global ecology of research data - innovation will stem in part from our human-centred approaches which empower people and their communities. We see partnerships with Māori communities driving towards distribution and delegation of control to individuals and groups, including place based initiatives such as is envisioned through the regional Māori knowledge hubs. Through these mechanisms we collectively build capability for more ethical use of data, and accelerate new research such as in precision medicine and targeted public health.&lt;/p&gt;
 &lt;p&gt;g. It is vital that the integration of mātauranga Māori leads the approach to research data management. Work has already taken place in relation to Indigenous and Māori data sovereignty which highlighted the need for data schemas, methods and tools that can be applied to Indigenous data. Consideration needs to be given as to how any data schemas e.g. Traditional Knowledge Labels are utilised to ensure the use of CARE (collective benefit, authority to control, responsibility, ethics) principles as well as the FAIR principles. Consideration of Mātauranga Māori will allow community control and self-determination in relation to data stewardship. This will be enabled by support for the development of standards relevant to Indigenous data (e.g IEEE Recommended Practice on Provenance of Indigenous Peoples’ Data &lt;a href=&quot;https://standards.ieee.org/ieee/2890/10318/&quot;&gt;https://standards.ieee.org/ieee/2890/10318/&lt;/a&gt; )&lt;/p&gt;
