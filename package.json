@@ -8,7 +8,7 @@
     "serve": "eleventy --serve & npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
     "start": "eleventy --serve & npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
     "debug": "DEBUG=* eleventy",
-    "predeploy": "npm start & npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
+    "predeploy": "eleventy & npm start & npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
   },
   "repository": {
     "type": "git",
