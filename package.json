@@ -3,12 +3,16 @@
   "version": "5.0.2",
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
-    "build": "eleventy & npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
-    "watch": "eleventy --watch & npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
-    "serve": "eleventy --serve & npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
-    "start": "eleventy --serve & npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
+    "build": "npm start build:*",
+    "watch": "npm start dev:*",
+    "serve": "npm start dev:*",
+    "start": "npm start dev:*",
     "debug": "DEBUG=* eleventy",
-    "predeploy": "eleventy & npm start & npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
+    "predeploy": "npm start & build:*",
+    "dev:11ty": "eleventy --serve",
+    "dev:css": "npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css --watch --postcss",
+    "build:11ty": "eleventy",
+    "build:css": "npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css --postcss"
   },
   "repository": {
     "type": "git",
@@ -25,7 +29,7 @@
   },
   "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
