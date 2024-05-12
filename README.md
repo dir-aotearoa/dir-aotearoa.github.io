@@ -1,4 +1,4 @@
-# Data in Research Aotearoa",
+# Data in Research Aotearoa
 
 Site: https://dir-aotearoa.github.io/
 
