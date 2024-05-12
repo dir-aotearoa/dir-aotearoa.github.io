@@ -1,1 +1,2 @@
-# Aotearoa New Zealand Committee on Data in Research
+#  {{ metadata.title }}
+{{ metadata.description }}
