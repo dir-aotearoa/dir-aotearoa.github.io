@@ -61,6 +61,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css/prism-base16-monokai.dark.css");
   eleventyConfig.addPassthroughCopy("js/alpine.js");
 
+  eleventyConfig.addWatchTarget("css/tailwind.css");
+  eleventyConfig.addWatchTarget("tailwind.config.js");
+
   // Customize Markdown library and settings:
   let markdownLibrary = markdownIt({
     html: true,
