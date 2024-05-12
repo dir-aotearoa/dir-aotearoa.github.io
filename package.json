@@ -3,9 +3,9 @@
   "version": "5.0.2",
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
-    "build": "npm & npx eleventy & npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
-    "start": "npm & npx eleventy & npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
-    "predeploy": "npm & npx eleventy & npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css"
+    "build": "eleventy && npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
+    "start": "eleventy && npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css",
+    "predeploy": "eleventy && npx tailwindcss -i ./css/tailwind.css -o ./docs/css/style.css"
   },
   "repository": {
     "type": "git",
