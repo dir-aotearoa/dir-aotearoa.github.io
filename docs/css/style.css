@@ -2690,14 +2690,6 @@ video {
   margin-right: 1rem;
 }
 
-.mt-12 {
-  margin-top: 3rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
@@ -2708,10 +2700,6 @@ video {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.box-content {
-  box-sizing: content-box;
 }
 
 .block {
@@ -2787,16 +2775,8 @@ video {
   height: max-content;
 }
 
-.w-2\/5 {
-  width: 40%;
-}
-
 .w-20 {
   width: 5rem;
-}
-
-.w-3\/5 {
-  width: 60%;
 }
 
 .w-4 {
@@ -2921,10 +2901,6 @@ video {
 
 .place-content-baseline {
   place-content: baseline;
-}
-
-.place-items-center {
-  place-items: center;
 }
 
 .place-items-baseline {
@@ -3204,6 +3180,11 @@ video {
   padding-right: 0.5rem;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -3463,6 +3444,22 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.\[gh\:pidusage\] {
+  gh: pidusage;
+}
+
+.\[gh\:ps-tree-um\] {
+  gh: ps-tree-um;
+}
+
+.\[gh\:ps-tree\] {
+  gh: ps-tree;
+}
+
+.\[github\:simonepri\] {
+  github: simonepri;
+}
+
 .\[k\:K\] {
   k: K;
 }
@@ -3471,11 +3468,11 @@ video {
 
 h1 {
   margin-bottom: 0.75rem;
-  margin-top: 11rem;
+  margin-top: 3rem;
   text-align: center;
   font-size: 3rem;
   line-height: 1;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.025em;
 }
 
 h2 {
@@ -3483,7 +3480,7 @@ h2 {
   text-align: left;
   font-size: 1.5rem;
   line-height: 2rem;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.025em;
 }
 
 h3 {
