@@ -7,14 +7,14 @@ eleventyNavigation:
   order: 1
 ---
 
-<div class="flex p-10">
-    <div class="w-4/5 flex-col box-content px-30 place-items-center">
+<div class="container mx-auto px-20">
+    <div class="p-5">
         <h1>
             <div class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
                 {{ metadata.title }}
             </div>
         </h1>
-        <div class="">
+        <div class="px-50">
             <p> {{ metadata.description }} </p>
             <ul class="list-disc mt-8 ml-12">
                 <li><a class="text-blue-600 visited:text-purple-600" href="{{ '/committee/' | url }}">Learn more</a> about the {{ metadata.committee }} </li>
@@ -23,8 +23,8 @@ eleventyNavigation:
         </div>
     </div>
 </div>
-<div>
-    <div class="w-4/5 flex-col p-5 mt-12 place-items-center">
+<div class="container mx-auto px-20">
+    <div class="p-5 mt-12">
     {% set maxPosts = collections.posts.length | min(3) %}
         <div class="p-5 mt-20 items-start">
             <h2>
@@ -40,7 +40,7 @@ eleventyNavigation:
     </div>
 </div>
 
-<div class="container p-20">
+<div class="container mx-auto p-20">
     <h2 class="">
         <div class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500 mt-4">
             {{partners}}
