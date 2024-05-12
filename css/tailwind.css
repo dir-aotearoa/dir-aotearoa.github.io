@@ -5,11 +5,11 @@
 /*Your Custom CSS Goes here*/
 
   h1 {
-    @apply tracking-tighter mb-3 text-center text-5xl mt-14;
+    @apply tracking-wide mb-3 text-center text-5xl mt-10;
   }
   
   h2 {
-    @apply text-2xl tracking-tighter mb-3 text-left;
+    @apply text-2xl tracking-wide mb-3 text-left;
   }
   
   h3 {
