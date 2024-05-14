@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>April 2024 newsletter</title>
+    <meta name="description" content="Report from the Committee to the CoDiR Forum, April 2024">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <script src="/js/alpine.js"></script>
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Data in Research Aotearoa">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Data in Research Aotearoa">
+  </head>
+  <body>
+    <header>
+
+    <div class="float w-full">
+  <nav class="flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto backdrop-blur-md" x-data="{ isOpen: false }" @keydown.escape="isOpen = false"  @click.away="isOpen = false">
+
+    <!--Logo etc-->
+
+    <div class="flex items-center">
+        <a href="/" class="text-indigo-500 text-lg">Data in Research Aotearoa
+        </a>
+    </div>
+
+    <!--Toggle button (hidden on large screens)-->
+    <button @click="isOpen = !isOpen" type="button" class="ml-auto block lg:hidden px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500" :class="{ 'transition transform-180': isOpen }" aria-label="Menu">
+        <svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+            <path x-show="isOpen" fill-rule="evenodd" clip-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
+            <path x-show="!isOpen" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+        </svg>
+    </button>
+
+    <!--Menu-->
+
+    <div class="w-full flex-grow lg:flex lg:items-start lg:w-auto text-center " :class="{ 'block shadow-3xl': !isOpen, 'hidden': !isOpen }" x-show.transition="true">
+      <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-start">
+        <li class="nav-item nav__item mr-3">
+          <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/">Home</a>
+        </li>
+        <li class="nav-item nav__item mr-3">
+          <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/posts/">Updates</a>
+        </li>
+        <li class="nav-item nav__item mr-3">
+          <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/committee/members/">Committee</a>
+            <ul>
+              <li class="nav-item">
+                <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/committee/">Terms of Reference</a>
+              </li>
+            </ul>
+        </li>
+        <li class="nav-item nav__item mr-3">
+          <a @click="isOpen = false" class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4" href="/forum/">Forum</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+    </header>
+
+    <main class="tmpl-post">
+
+      
+
+<div class="container clear-both mx-auto flex flex-col justify-center items-center">
+  <div class="pb-5 mb-5 border-b border-gray-100">
+    <h1>
+      <div class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">April 2024 newsletter
+      </div>
+    </h1>
+    <p class="text-center text-base leading-6 font-medium text-gray-500">
+      <time datetime="2024-04-23"> 23 Apr 2024 by <a>Richard Hartshorn</a>
+      </time>
+    </p>
+  </div>
+  
+  <article class="prose lg:prose-xl my-4 mx-auto">
+    <h1 id="aotearoa-new-zealand-national-committee-on-data-in-research-(codir)">Aotearoa New Zealand National Committee on Data in Research (CoDiR) <a class="direct-link" href="#aotearoa-new-zealand-national-committee-on-data-in-research-(codir)">#</a></h1>
+<p>Report from the Committee to the CoDiR Forum<br>
+April 2024</p>
+<h2 id="summary">Summary <a class="direct-link" href="#summary">#</a></h2>
+<p>Key CoDiR news included in this report:</p>
+<ul>
+<li><a href="#data-landscape-review">The Data Landscape Review</a></li>
+<li><a href="#research-data-culture-conversation">Research Data Culture Conversation</a></li>
+<li><a href="#draft-projects">Other projects underway or being developed</a></li>
+<li><a href="#science-system-advisory-group-open-for-submissions">Science System Advisory Group open for submissions</a></li>
+<li><a href="#codata-unions-forum">CODATA Unions Forum</a></li>
+<li><a href="#eresearch-nz-2024-conference-report-and-2025-conference">eResearch 2024 Conference Report and 2025 Conference</a></li>
+<li><a href="#international-data-week-2025">International Data Week 2025</a></li>
+<li><a href="#wds-news">WDS News</a></li>
+<li><a href="#codata-worldfair-reports">CODATA Notices</a></li>
+<li><a href="#ictd-2024-conference">ICTD 2024</a></li>
+<li><a href="#codata-working-group-on-data-ethics">CODATA Working Group on Data Ethics</a></li>
+<li><a href="#worldfair-webinar-series">WorldFAIR Webinar Series</a></li>
+<li><a href="#codir-2024-committee-membership">CoDiR 2024 Committee Membership</a></li>
+</ul>
+<h2 id="project-work">Project Work <a class="direct-link" href="#project-work">#</a></h2>
+<h3 id="data-landscape-review">Data Landscape Review <a class="direct-link" href="#data-landscape-review">#</a></h3>
+<p>The project is complete. The full report can be found at: <a href="https://doi.org/10.15663/UoW.RDLA.DEC2023">https://doi.org/10.15663/UoW.RDLA.DEC2023</a>, and was shared/discussed at meetings with the Chief Science Advisors' Forum, on 31 Jan, and MBIE on 29 Feb.</p>
+<p>The report resonated with some other discussions the CSA Forum had been having around the uses of geospatial data, particularly related to disaster response work. They were positive about the report, but pointed out that while it is useful to policy people, decision makers would need more focussed and engaging material. It was suggested that there should be a series of short case studies developed that would show the benefits of enhancing data work in NZ. Ideas are being developed in this space but resource constraints are slowing further work in this space.</p>
+<p>Roughly 130 people from the MBIE policy teams were invited to the MBIE session and 50 or so attended – this was apparently a very strong turnout. They liked the Nosek Pyramid approach for the recommendations, and in terms of the presentation that was made (<a href="https://docs.google.com/presentation/d/1OlvQbgLYWxAAIvlkIxREekbYIom1dF6n/edit#slide=id.p1">MBIE presentation.pptx - Google Slides</a>), and in a context of fiscal restraint, they also liked the “low hanging fruit’. They were keen on the Landscape Report being more actively disseminated. There was comment on the Australian Research Data Commons move towards supporting domain-based work (as opposed to more work around centralised support of infrastructure/training that is cross-disciplinary in nature). There was discussion of the MBIE roles in policy and in infrastructure (the top and bottom of the pyramid), but it was pointed out that they could/should contribute to the framework for filling the gap between policy and the coalface – and to training and skills uplift that is needed to support better data management and FAIR/CARE principles.</p>
+<p>Any further feedback is welcome.</p>
+<h3 id="research-data-culture-conversation">Research Data Culture Conversation <a class="direct-link" href="#research-data-culture-conversation">#</a></h3>
+<p>After developing a baseline of Research Data in Aotearoa in 2023 with the help of Australian RDCC colleagues, we attempted to repeat the exercise in order to determine a growth rate of research data. These results were shared at eResearch NZ in February 2024, indicating a growth rate of about ~25% indicating there was likely 56 PB of research data holdings as of December 2023. This is in line with our Australian colleagues who have measured ~30 % growth rates over the last 5 years or so. Though it's important to note with fewer institutes contributing, the margin of error will be large. Slides from the BoF session, held with Australian RDCC colleagues are available to view: <a href="https://eresearchnz.figshare.com/articles/presentation/Making_research_data_count/25333087">Making research data count</a>.</p>
+<p>A second and related BoF was also held at eResearch NZ, <a href="https://eresearchnz.figshare.com/articles/presentation/Unravelling_the_data_lifecycle/25333114">Unravelling the data lifecycle</a>. Based on recent work carried out in Australia, as part of the Institutional Underpinnings program of the ARDC. Depicted here as “unravelling” the life cycle diagram, the challenges exposed relate to the nature of the decisions that drive data curation, retention, and disposal in each life cycle stage. Both sessions had good attendance and some lively debate over the idea of deleting research data. Related to this, there is a proposed RDA working group - <a href="https://www.rd-alliance.org/active-disposal-research-data-what-you-need-know-and-do-you-push-delete/">Active disposal of research data: what you need to know and do before you push delete</a> - at the upcoming RDA virtual plenary 22.</p>
+<p>Next steps for the RDCC in both Australia and New Zealand are currently being decided based on the feedback received from the broader community, with Australia currently in talks with CAUDIT and AeRO. There has also been momentum around understanding the role of data stewardship in the context of Institutional Research data holdings.</p>
+<p>From the New Zealand side, Claire Rye and Nick Jones from NeSI have been leading the kōrero and would be keen to engage further with interested members of the data community. Please reach out to <a href="mailto:claire.rye@nesi.org.nz">claire.rye@nesi.org.nz</a>.</p>
+<h2 id="draft-projects">Draft Projects <a class="direct-link" href="#draft-projects">#</a></h2>
+<h3 id="review-of-research-data-management-planning">Review of Research Data Management Planning <a class="direct-link" href="#review-of-research-data-management-planning">#</a></h3>
+<p>This project will develop recommendations on research data management planning and subsequent implementation. We understand the importance of good research data management planning but are also aware of issues which affect the (non-)delivery or execution of these plans. Tentative working group: Michelle Blake, Richard Hartshorn, Nick Jones, Claire Rye (NeSI), Grace Walker.</p>
+<p>Possible future projects have been identified:</p>
+<ul>
+<li>Data quality in a NZ context - how good, ethical issues, wider benefit</li>
+<li>Identifying gaps in research data management and how to fill them – particularly around skills development (either for data specialists, or up-skilling people from other disciplines), and around achieving consistency between funding organisations about data policy mandates</li>
+<li>Developing a bicultural data ontology, by bringing together existing resources of this kind from different organisations in different parts of the data world (this may be of particular interest to CONZUL, and the following links provide some relevant examples: <a href="https://paekoroki.tauranga.govt.nz/nodes/view/53930">https://paekoroki.tauranga.govt.nz/nodes/view/53930</a> and <a href="https://paekoroki.tauranga.govt.nz/pages/waka-hourua">https://paekoroki.tauranga.govt.nz/pages/waka-hourua</a>)</li>
+<li>Open Data Policy and FAIR Principles (which may be an update on earlier documents). A relevant example paper: <a href="https://codata.org/initiatives/task-groups/fair-data-for-disaster-risk-research/white-paper-series/second-white-paper-on-next-generation-disaster-data-infrastructure/">https://codata.org/initiatives/task-groups/fair-data-for-disaster-risk-research/white-paper-series/second-white-paper-on-next-generation-disaster-data-infrastructure/</a></li>
+</ul>
+<p>Thoughts and suggestions on possible additional projects are very welcome.</p>
+<h2 id="science-system-advisory-group-open-for-submissions">Science System Advisory Group open for submissions <a class="direct-link" href="#science-system-advisory-group-open-for-submissions">#</a></h2>
+<p>MBIE has announced two advisory groups working in parallel to review the academic and research system in Aotearoa New Zealand. The Science System Advisory Group <a href="https://www.ssag.org.nz">https://www.ssag.org.nz</a> is currently receiving submissions for the first phase of its review with a deadline of 17 May and a 4 page limit. An initial report back due mid-year and a final report due before the end of this year. CoDiR will be making a submission and encourages submissions while also maintaining a keen interest in hearing from anyone with a view to share. Please contact CoDiR Chair Richard Hartshorn <a href="mailto:richard.hartshorn@canterbury.ac.nz">richard.hartshorn@canterbury.ac.nz</a>.</p>
+<h2 id="codata-unions-forum">CODATA Unions Forum <a class="direct-link" href="#codata-unions-forum">#</a></h2>
+<p>CODATA is looking to establish, in collaboration with the International Science Council, a forum for data-related issues in which scientific unions and related bodies can engage directly to understand their activities and concerns, and identify opportunities for greater collaboration and joint projects. If you have interest in this idea, and particularly if you are connected with an international scientific union, please connect with Richard Hartshorn <a href="mailto:richard.hartshorn@canterbury.ac.nz">richard.hartshorn@canterbury.ac.nz</a>.</p>
+<h2 id="eresearch-nz-2024-conference-report-and-2025-conference">eResearch NZ 2024 Conference Report and 2025 Conference <a class="direct-link" href="#eresearch-nz-2024-conference-report-and-2025-conference">#</a></h2>
+<p>This year marked eResearch NZ’s 15th, and a return to Wellington. The meeting held much of interest for those involved in Research Data. To whet appetites one inspirational talk came from Professor Carole Goble. Carole has a long history of leadership in the UK eScience community, and has been a key driver of data workflows, skills training, and sensitive data capabilities. Carole described the impressive work underway within the biological and life sciences to federate and integrate data and data platforms, along with a compelling view of the potential impact from an emerging protocol called RO Crate. <a href="https://www.youtube.com/watch?v=5J-1tT92u0w">Watch Carole’s keynote</a>! A brief report on the meeting can be found at REANNZ, the host of this year’s event: <a href="https://www.reannz.co.nz/news-and-events/eresearch-2024-hit-the-spot-for-delegates/">eResearch 2024 hit the spot for delegates :: REANNZ</a></p>
+<p>The eResearch conference series is well-aligned with many of the interests of CoDiR Forum members, and we believe that this may represent a good opportunity for us to get together. We hope to involve more CoDiR people/activities in this series of meetings. You can find more information on this conference at <a href="https://www.eresearchnz.co.nz">https://www.eresearchnz.co.nz</a>.</p>
+<p>For those interested in the scope of the meeting, the abstract book for the 2024 conference can be found here: <a href="https://bpb-ap-se2.wpmucdn.com/blogs.auckland.ac.nz/dist/6/983/files/2024/02/eResearch-Abstract-handbook-eadaf72337221f70.pdf">eResearch-Abstract-handbook-eadaf72337221f70.pdf</a> and the presentations are available on the eResearch NZ figshare <a href="https://eresearchnz.figshare.com/">https://eresearchnz.figshare.com/</a>.</p>
+<p>NeSI is hosting next year - look out for news on the 2025 edition, you can sign up to receive updates here !</p>
+<h2 id="international-data-week-2025">International Data Week 2025 <a class="direct-link" href="#international-data-week-2025">#</a></h2>
+<p>International Data Week is a key conference in the area, has important threads in the areas of Indigenous Data Sovereignty, data infrastructure, Open Science, and FAIR Data.</p>
+<p>The 2025 edition will be held in Brisbane from October 13-16: <a href="https://codata.org/events/conferences/international-data-week-2025/">International Data Week 2025, Brisbane, Australia - CODATA, The Committee on Data for Science and Technology</a>.</p>
+<p>This represents a real opportunity for data-oriented people to connect internationally. Such conferences do not often come to the region and it would be good to have a strong showing from NZ.</p>
+<h2 id="wds-news">WDS News <a class="direct-link" href="#wds-news">#</a></h2>
+<p>Claire Rye is the ECR rep on the WDS Scientific committee. Claire is highlighting the <a href="https://worlddatasystem.org/webinars/">upcoming webinar series</a> and also issuing a general invite to join the <a href="https://worlddatasystem.org/early-career-researchers-network/">WDS early career researcher network</a>, who are keen to recruit members from this side of the world.</p>
+<h2 id="codata-worldfair-reports">CODATA WorldFAIR Reports <a class="direct-link" href="#codata-worldfair-reports">#</a></h2>
+<p>WorldFAIR — the flagship project of the CODATA Decadal Programme, “Making Data Work for Cross-Domain Grand Challenges” — has had a busy start to 2024. In the first three months of the year, we have published <strong>eight new reports: for agricultural biodiversity, chemistry, geochemistry, nanomaterials, and social studies research</strong>. All these outputs are freely available online.</p>
+<p><em>Agricultural biodiversity</em></p>
+<ul>
+<li><strong>WorldFAIR (D10.2) Agricultural Biodiversity Standards, Best Practices and Guidelines Recommendations</strong>. This new report presents the results from six pilot studies adopting standards and recommendations from our discovery phase.<br>
+More: <a href="https://doi.org/10.5281/zenodo.10666593">https://doi.org/10.5281/zenodo.10666593</a>.<br>
+Alongside this report is a <strong>Tutorial</strong> that facilitates the standardisation of any spreadsheet containing plant-pollinator interaction data, and assists in sharing the final product in the REBIPP or other platforms. More: <a href="https://doi.org/10.5281/zenodo.10688865">https://doi.org/10.5281/zenodo.10688865</a></li>
+<li><strong>WorldFAIR (D10.3) Agricultural biodiversity FAIR data assessment rubrics</strong>. Introduces a set of FAIR assessment tools tailored to the plant-pollinator interactions domain, to help researchers and institutions evaluate adherence to the FAIR principles.<br>
+More: <a href="https://doi.org/10.5281/zenodo.10719265">https://doi.org/10.5281/zenodo.10719265</a></li>
+</ul>
+<p><em>Chemistry</em></p>
+<ul>
+<li><strong>WorldFAIR (D3.2) Training Package: FAIR Chemistry Cookbook</strong>. This “Cookbook” trains various user groups in the chemical sciences in the FAIR principles and machine-readable chemical data. It serves as a toolbox of interactive recipes for implementing FAIR at various levels and for various users. More: <a href="https://doi.org/10.5281/zenodo.10711950">https://doi.org/10.5281/zenodo.10711950</a></li>
+<li><strong>WorldFAIR (D3.3) Utility services for Chemistry Standards</strong>. Criteria for web-based services that organisations can implement based on preferred technologies (e.g., toolkits, programming languages). The services are intended to confirm chemical identity and provide feedback on the machine-readability of chemical data and metadata representations based on IUPAC standard rule sets and community best practices, to support a range of stakeholders engaging in chemical data exchange online.<br>
+More: <a href="https://doi.org/10.5281/zenodo.10514901">https://doi.org/10.5281/zenodo.10514901</a></li>
+</ul>
+<p><em>Geochemistry</em></p>
+<ul>
+<li><strong>WorldFAIR (D5.2) Geochemistry Methodology and Outreach</strong>. Advocating the utility and significance of FAIR Implementation Profiles (FIPs) for the geochemistry community, and presenting a set of policy and organisational recommendations.<br>
+More: <a href="https://doi.org/10.5281/zenodo.10406332">https://doi.org/10.5281/zenodo.10406332</a></li>
+<li><strong>WorldFAIR (D5.3) Guidelines for implementing Geochemistry FIPs</strong>. We guide the geochemistry data infrastructure community towards convergence by identifying FAIR Enabling Resources (FERs) in current use by the geosciences community. We propose creating a reference FIP or catalogue of FERs to promote interoperability and prevent duplication of efforts. More: <a href="https://doi.org/10.5281/zenodo.10712808">https://doi.org/10.5281/zenodo.10712808</a></li>
+</ul>
+<p><em>Nanomaterials</em></p>
+<ul>
+<li><strong>WorldFAIR (D4.2) FAIRification of nanoinformatics tools and models<br>
+recommendations</strong>. Targeted towards nanoinformatics model developers, this report presents a set of recommendations and prototypes for FAIRification of nanoinformatics tools and models. The focus is on tools and software primarily, and also FAIRIfication of the underpinning (and resulting) datasets. More: <a href="https://doi.org/10.5281/zenodo.10629631">https://doi.org/10.5281/zenodo.10629631</a></li>
+</ul>
+<p><em>Social studies</em></p>
+<ul>
+<li><strong>WorldFAIR (D6.3) Pilot Testing Harmonisation Workflows</strong>. We test the use of standardised workflows based on registry services available at the Australian Data Archive (ADA) and Sikt through their respective Colectica registries. The workflow steps are piloted with the International Social Survey Program (ISSP), to evaluate the Cross-Cultural Survey Harmonisation workflow as a suitable process for machine-to-machine based survey harmonisation. More: <a href="https://doi.org/10.5281/zenodo.10724744">https://doi.org/10.5281/zenodo.10724744</a></li>
+</ul>
+<p>For more on all things WorldFAIR, visit us online at <a href="http://worldfair-project.eu">http://worldfair-project.eu</a>.</p>
+<p>WorldFAIR is funded by the EC HORIZON-WIDERA-2021-ERA-01-41 Coordination and Support Action under Grant Agreement No. 101058393.</p>
+<h2 id="ictd-2024-conference">ICTD 2024 Conference <a class="direct-link" href="#ictd-2024-conference">#</a></h2>
+<p>The 13th International Conference on Information &amp; Communication Technologies and Development (ICTD 2024), to be hosted in Nairobi, Kenya from December 9-11, 2024, invites you to submit research papers (<a href="http://www.ictd.org">http://www.ictd.org</a>).</p>
+<p>About: ICTD 2024 provides an international forum for scholarly researchers to explore the role of information and communication technologies (ICTs) in social, political, and economic development. The ICTD conferences have been taking place approximately every 18 months since 2006. The conference reflects the multidisciplinary and multisectoral nature of ICTD work, with representation from a broad range of areas (anthropology, communication, computer science, design, economics, electrical engineering, geography, global health, information science, political science, sociology, and many others), as well as participation from academia, industry, civil society, and government.</p>
+<p>Submission Guidelines: Please refer to the instructions on the conference web site – <a href="http://www.ictd.org">http://www.ictd.org</a>.</p>
+<p>Accepted papers will be included in the ACM Digital Library.</p>
+<p><strong>Important Dates</strong></p>
+<ul>
+<li><strong>15 July 2024:</strong> Deadline for submission of Full Papers</li>
+<li><strong>15 August 2024:</strong> Notification of acceptance for Full Papers</li>
+<li><strong>15 September 2024:</strong> Camera-ready deadline for Full Papers</li>
+</ul>
+<p>All submissions are due 11:59 pm AoE (Anywhere on Earth).</p>
+<h2 id="codata-working-group-on-data-ethics">CODATA Working Group on Data Ethics <a class="direct-link" href="#codata-working-group-on-data-ethics">#</a></h2>
+<p>The <a href="https://codata.org/initiatives/task-groups/data-ethics/">CODATA Working Group on Data Ethics (now a Task Group)</a>, has produced three policy briefings on important topics in relation to data ethics. At least two more are in the pipeline.</p>
+<p>The policy briefings respond to the <a href="https://unesdoc.unesco.org/ark:/48223/pf0000379949">UNESCO Recommendation on Open Science</a>. They start from the premise that the Recommendation, in its statements of values and principles, and its other argumentation, is a document with a significant ethical orientation. The policy briefings, therefore, seek to augment the Recommendation and add further considerations and policy guidance for ethical issues in relation to data.</p>
+<p>The first three Policy Briefs are available for comment. We will greatly appreciate feedback by 25/04/2024:</p>
+<p><strong>Data Ethics and Research Integrity <a href="https://doi.org/10.5281/zenodo.10933361">https://doi.org/10.5281/zenodo.10933361</a></strong> <br><br>
+Feedback is welcomed via the form <a href="https://forms.gle/SmkhP9XzunRLysGL6">https://forms.gle/SmkhP9XzunRLysGL6</a> or directly to the authors: Leo Lahti <a href="mailto:leo.lahti@utu.fi">leo.lahti@utu.fi</a>, Joy Jang <a href="mailto:joyjang@umich.edu">joyjang@umich.edu</a>, Hu Lianglin <a href="mailto:hull@cnic.cn">hull@cnic.cn</a>, Dirk Hommrich, <a href="mailto:hommrich@kulturforschung-hd.de">hommrich@kulturforschung-hd.de</a>, Sun Kun Oh <a href="mailto:sunkun.oh@gmail.com">sunkun.oh@gmail.com</a></p>
+<p><strong>Data Ethics and Privacy <a href="https://doi.org/10.5281/zenodo.10933546">https://doi.org/10.5281/zenodo.10933546</a></strong> <br><br>
+Feedback is welcomed via the form <a href="https://forms.gle/SmkhP9XzunRLysGL6">https://forms.gle/SmkhP9XzunRLysGL6</a> or directly to the authors: Ashlin Lee <a href="mailto:Ashlin.Lee@csiro.au">Ashlin.Lee@csiro.au</a>, Masanori Arita <a href="mailto:arita@nig.ac.jp">arita@nig.ac.jp</a> and Steve McEachern <a href="mailto:steven.mceachern@anu.edu.au">steven.mceachern@anu.edu.au</a></p>
+<p><strong>Data Ethics and Structural Inequities in Science <a href="https://doi.org/10.5281/zenodo.10933602">https://doi.org/10.5281/zenodo.10933602</a></strong> <br><br>
+Feedback is welcomed via the form <a href="https://forms.gle/SmkhP9XzunRLysGL6">https://forms.gle/SmkhP9XzunRLysGL6</a> or directly to the authors: Suchith Anand <a href="mailto:Suchith.Anand@nottingham.ac.uk">Suchith.Anand@nottingham.ac.uk</a>, Louise Bezuidenhout, <a href="mailto:l.m.bezuidenhout@cwts.leidenuniv.nl">l.m.bezuidenhout@cwts.leidenuniv.nl</a>, Andrew Cox <a href="mailto:a.m.cox@sheffield.ac.uk">a.m.cox@sheffield.ac.uk</a>, Johannes John- Langba, <a href="mailto:JohnLangbaJ@ukzn.ac.za">JohnLangbaJ@ukzn.ac.za</a>, Sabina Leonelli, <a href="mailto:S.Leonelli@exeter.ac.uk">S.Leonelli@exeter.ac.uk</a></p>
+<h2 id="worldfair-webinar-series">WorldFAIR Webinar Series <a class="direct-link" href="#worldfair-webinar-series">#</a></h2>
+<p><strong>April 22 @ 1:00 pm – 2:00 pm (UTC)</strong></p>
+<p><a href="https://zoom.us/meeting/register/tJcudeyprzwiE9I7SPN6yZ5_eW1ES3xsel9-">Register here</a></p>
+<p><strong>Speakers:</strong></p>
+<ul>
+<li>Evan Bolton: Protocol Services: Standardized programmatic access to chemical information</li>
+<li>Stuart Chalk: Training Cookbook: Digital recipes for managing chemical data</li>
+<li>Iseult Lynch: The Case Study on Nanomaterials</li>
+</ul>
+<p><strong>More about the Case Studies:</strong></p>
+<p><em>Chemistry</em><br><br>
+The WP3 (<a href="https://iupac.org/project/2022-012-1-024/">FAIR Chemistry</a>) aims to align chemistry data standards with the FAIR data principles through:</p>
+<ul>
+<li>Development of guidelines, tools and validation services that enable scientists to share and store data in a FAIR manner;</li>
+<li>Addressing gaps in standards that currently restrain chemistry in both academic and industrial areas, in particular taking advantage of developments in AI/ML;</li>
+<li>Engaging critical stakeholders in the adoption of standards and best practices to significantly increase the amount of chemical data available for all scientific disciplines.</li>
+</ul>
+<p>Chemical substances touch on all areas of laboratory science and chemistry underlies many critical worldwide issues, including climate, health, food availability and sustainable development. Increased reporting of machine-readable chemical data will support active research in chemistry and related sciences worldwide, and will be essential to the development of the interdisciplinary science critical to address the UN Sustainable Development Goals and UNESCO’s priorities around Open Science. <a href="https://iupac.org/">IUPAC</a> is the world authority on chemical nomenclature, terminology, and standardized methods of measurement, and is engaging in a concerted effort through collaboration with the broader chemistry and data science communities to translate a range of assets and activities into the digital domain. Aligning standards development and implementation with the FAIR data principles will facilitate development of guidelines, tools and validation services that support scientists to share and store data in a FAIR manner and support the ability to compile and interpret data across scientific disciplines.</p>
+<p><em>Nanomaterials</em><br><br>
+The mapping of existing initiatives to increase the FAIRness of both nanomaterials and mixture toxicity datasets and computational approaches for toxicity and mixture assessment is a critical step towards identifying both the domain- specific features and the general features needed to maximise data and model FAIRness.</p>
+<p>Building on this mapping, and the development of a FIP, the case study will foster development and piloting of interoperability standards and guidelines for increasing FAIRness in the interlinked scientific disciplines (chemical toxicity, nanomaterials toxicity and characterisation, risk assessment, advanced materials, environmental science), and across the different domains.</p>
+<p>This case study will enable the further adoption of the FAIR principles by the international nanomaterial community and encourage greater alignment with neighbouring disciplines and communities.</p>
+<p>It builds on the partners’ successful collaboration in NanoCommons (a research infrastructure for nanoinformatics and FAIR nanomaterials data) and their leadership of the IUPAC InChI Trust efforts to develop a standard extension of the InChI for nanomaterials.</p>
+<p>It will test the pilot operationalisation of the FAIR principles; run conference sessions and workshops with stakeholders (including the InChI-for-nano domain experts, and international ‘nano’ database managers and their users) to apply, refine, implement, improve the metrics for FAIR nanosafety datasets; and develop an inventory of FAIR nanoinformatics models and their domains of applicability, underpinning datasets and APIs to support interoperability, including guidelines to further improve the interoperability of nanoinformatics models.</p>
+<p>The results will include complete human- and machine-readable nanomaterials data provenance trails that can be implemented in a straightforward way using the distributed FAIRification approach.</p>
+<h2 id="codir-2024-committee-membership">CoDiR 2024 Committee Membership <a class="direct-link" href="#codir-2024-committee-membership">#</a></h2>
+<ul>
+<li>Hamza Ajmal, Livestock Improvement Corporation, Market Analyst</li>
+<li>Maryam Alavi, Plant and Food Research, Data Science</li>
+<li>Michelle Blake, University of Waikato/Council of New Zealand University Libraries/Open Access Australasia Executive Board/International Association of University Libraries Executive Board, Library</li>
+<li>Richard Hartshorn, University of Canterbury/CODATA Executive Committee/IUPAC Secretary General, Chemistry</li>
+<li>Nick Jones, NeSI/RDA Organisational Advisory Board, Research Software &amp; Data - Skills &amp; Infrastructure</li>
+<li>Tahu Kukutai, University of Waikato/Ngā Pae o te Māramatanga/Global Indigenous Data Alliance, Demography</li>
+<li>Barry Milne, University of Auckland/COMPASS, Social Sciences</li>
+<li>Tom Saunders, University of Auckland, eResearch Engagement</li>
+<li>James Savage, Southern Institute of Technology | Te Pūkenga, Research Coordinator</li>
+<li>Grace Walker, University of Otago/Ngāi Tahu Research Centre/Think Analytic Ltd, Psychology/Data Science</li>
+</ul>
+<p>International contact people:</p>
+<ul>
+<li>CODATA: Richard Hartshorn</li>
+<li>RDA: Nick Jones</li>
+<li>WDS: Kristin Stock</li>
+<li>WDS ECR Network: Claire Rye</li>
+</ul>
+
+  </article>
+<hr>
+<ul><li>Previous: <a href="/posts/founding-members-announced/">Founding members announced.</a></li>
+</ul>
+</div>
+    </main>
+
+    <footer class="h-max bottom-0 text-center w-full py-4">
+    <small class="text-gray-500">Copyright ©
+        
+        2022. Made with ❤
+    </small>
+</footer>
+
+    <!-- Current page: /posts/newsletter-2024-04/ -->
+
+  </body>
+</html>

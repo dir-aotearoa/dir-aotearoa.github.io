@@ -1,8 +1,18 @@
+---
+title: April 2024 newsletter
+description: Report from the Committee to the CoDiR Forum, April 2024
+date: 2024-04-23
+author: Richard Hartshorn
+tags:
+  - Committee
+layout: layouts/post.njk
+---
+
 # Aotearoa New Zealand National Committee on Data in Research (CoDiR)
-Report from the Committee to the CoDiR Forum <br>
+Report from the Committee to the CoDiR Forum
 April 2024
 
-#### *Summary* <br>
+## Summary
 Key CoDiR news included in this report:
 - [The Data Landscape Review](#data-landscape-review)
 - [Research Data Culture Conversation](#research-data-culture-conversation)
